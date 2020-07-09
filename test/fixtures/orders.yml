@@ -1,0 +1,29 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date: 2020-07-09
+  org_number: MyString
+  status: MyString
+  quantity: 1
+  price: 1
+  discount: 1
+  status_comment: MyText
+  description: MyText
+  user: one
+  product: one
+  payment_method: one
+  address: one
+
+two:
+  date: 2020-07-09
+  org_number: MyString
+  status: MyString
+  quantity: 1
+  price: 1
+  discount: 1
+  status_comment: MyText
+  description: MyText
+  user: two
+  product: two
+  payment_method: two
+  address: two

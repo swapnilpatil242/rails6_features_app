@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  type: 
+  card_no: 1
+  card_name: MyString
+  upi_address: MyString
+  account_no: 1
+  account_name: MyString
+  account_bank: MyString
+  user: one
+
+two:
+  type: 
+  card_no: 1
+  card_name: MyString
+  upi_address: MyString
+  account_no: 1
+  account_name: MyString
+  account_bank: MyString
+  user: two
