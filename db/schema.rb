@@ -83,10 +83,10 @@ ActiveRecord::Schema.define(version: 2020_07_09_083152) do
 
   create_table "payment_methods", force: :cascade do |t|
     t.string "payment_type", null: false, comment: "card/upi/net"
-    t.integer "card_no"
+    t.string "card_no"
     t.string "card_name"
     t.string "upi_address"
-    t.integer "account_no"
+    t.string "account_no"
     t.string "account_name"
     t.string "account_bank"
     t.bigint "user_id", null: false
