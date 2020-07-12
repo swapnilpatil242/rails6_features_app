@@ -3,6 +3,6 @@ FactoryBot.define do
     user
     product
     date { Time.now }
-    quantity { Faker::Number.rand_in_range(0, 10) }
+    quantity { Faker::Number.rand_in_range(1, 2) }
   end
 end
