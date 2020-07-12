@@ -4,6 +4,10 @@
 
 This is practice base project
 
+* $ bin/rails db:create && bin/rails db:migrate && bin/rails db:seed
+* test user email: user1@test123.com
+* $ bin/rails server -p 3001
+
 #### Dependancies details :
 
 * ruby : 2.7.1
@@ -47,4 +51,46 @@ $ bin/rails generate model AddToCard date:datetime quantity product:references u
 
   > User.first.to_json(only: [:name, :email])
   > User.first.as_json(only: [:name, :email])
+```
+
+##### API Controller Generation ::
+
+```
+$ bin/rails g controller 'api/v1/api_base'
+$ bin/rails g controller 'api/v1/users'
+$ bin/rails g controller api/v1/Products
+$ bin/rails g controller api/v1/Orders
+$ bin/rails g controller api/v1/add_to_cards
+$ bin/rails g controller api/v1/UserFavouriteList
+```
+
+##### API Basic List ::
+
+```
+# API's
+  * Users
+    - SignUp
+    - SignIn
+    - AddAddress
+    - RemoveAddress
+    - AddPaymentMethod
+    - RemovePaymentMethod
+    - editProfile # pending
+  * Products
+    - List of Product
+    - Single product details
+  * Orders
+    - order list by user
+    - order show
+    - Order checkout
+  * UserCart
+    - card list
+    - add card
+    - remove card
+    - updated quantity card
+  * UserFavouriteList
+    - favourite list
+    - add favourite
+    - remove favourite
+
 ```
