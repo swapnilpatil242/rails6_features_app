@@ -3,6 +3,8 @@
 #### Descriptions :
 
 This is practice base project
+Check app related files in `readme_app_data` dir
+
 
 * $ bin/rails db:create && bin/rails db:migrate && bin/rails db:seed
 * test user email: user1@test123.com
@@ -92,5 +94,18 @@ $ bin/rails g controller api/v1/UserFavouriteList
     - favourite list
     - add favourite
     - remove favourite
+
+```
+
+#### Upcoming :
+
+```
+- API authentication (devise or JWT)
+- User login and signout
+- User authorization (Cancancan or pandit )
+- Rspec test cases
+     -   gem 'database_cleaner'
+     -   gem 'shoulda-matchers', '~> 3.1'
+
 
 ```
